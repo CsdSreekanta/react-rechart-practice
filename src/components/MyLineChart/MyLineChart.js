@@ -58,7 +58,7 @@ const MyLineChart = () => {
   ];
 
   return (
-    <div className="flex">
+    <div className="grid grid-cols-2">
       <div>
         <h1 className="text-2xl font-bold text-pink-500">This is the Line Chart</h1>
         <LineChart width={750} height={400} data={data}>
@@ -85,6 +85,8 @@ const MyLineChart = () => {
           <Legend></Legend>
         </PieChart>
       </div>
+
+      <h1>thsiiis</h1>
     </div>
   );
 };
